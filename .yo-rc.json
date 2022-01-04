@@ -41,6 +41,9 @@
     "clientThemeVariant": "",
     "enableGradleEnterprise": false,
     "languages": ["en", "fr"],
-    "cypressCoverage": false
+    "cypressCoverage": false,
+    "herokuAppName": "aelb",
+    "herokuDeployType": "git",
+    "herokuJavaVersion": "11"
   }
 }
