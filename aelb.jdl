@@ -1,0 +1,4 @@
+entity Attachment {
+  name String required minlength(3)
+  file Blob
+}

@@ -44,6 +44,8 @@
     "cypressCoverage": false,
     "herokuAppName": "aelb",
     "herokuDeployType": "git",
-    "herokuJavaVersion": "11"
+    "herokuJavaVersion": "11",
+    "entities": ["Attachment"],
+    "lastLiquibaseTimestamp": 1641259942000
   }
 }

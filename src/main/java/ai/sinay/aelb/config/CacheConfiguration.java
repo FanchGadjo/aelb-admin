@@ -48,6 +48,7 @@ public class CacheConfiguration {
             createCache(cm, ai.sinay.aelb.domain.User.class.getName());
             createCache(cm, ai.sinay.aelb.domain.Authority.class.getName());
             createCache(cm, ai.sinay.aelb.domain.User.class.getName() + ".authorities");
+            createCache(cm, ai.sinay.aelb.domain.Attachment.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
